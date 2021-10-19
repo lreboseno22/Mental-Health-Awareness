@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
 /* Container needed to position the button. Adjust the width as needed */
 .image-container {
   position: relative;
@@ -32,3 +38,48 @@
 .sidebysideimage {
     display: flex;
 }
+
+#header {
+position: fixed;
+width: 100%;
+height: auto;
+left: 0px;
+top: 0px;
+background: #BDBDBD;
+padding-top: 20px;
+}
+
+li, a {
+ text-decoration: none;
+    
+}
+header{
+    display: flex;
+    align-items:center;
+    padding: 10px 0px;
+    
+    
+}
+
+h4 {
+    width: auto;
+
+.home {
+    text-align: center;
+}
+
+.homelink {
+font-family: Rambla;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+padding: 0px 50px;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
