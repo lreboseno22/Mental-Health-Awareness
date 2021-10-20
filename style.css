@@ -43,19 +43,30 @@
     display: flex;
 }
 
+#homelink {
+    font-size: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
 li, a {
     text-decoration: none;
-    font-size: 40px;
-    color: #edf0f1;
+    font-size: 20px;
+    color: black;
     list-style-type: none;
     text-align: center;
+    padding: 3px 0px;
 
 }
 
+
+
 .navlink {
     list-style: none;
-    font-size: 40px;
-    align-items: center;
+    font-size: 20px;
+   
 }
  
 li {
@@ -66,9 +77,9 @@ header {
     display: flex;
     flex-direction:column;
     align-items: center;
-    padding: 30px 0px;
+    padding: 10px 0;
     justify-content: space-between;
-    background-color: red;
+    background-color: #BDBDBD;
     width: 100%;
 }
 
@@ -94,6 +105,10 @@ nav>ul {
      padding: 0px 20px;
  }
  
- .navlink li a{
+ .navlink li ,a{
      transition: all 0.3 ease 0s;
+ }
+ 
+ .navlink li, a:hover{
+     color:blue;
  }
