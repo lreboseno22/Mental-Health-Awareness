@@ -1,7 +1,64 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.image-container .btn:hover {
+    background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  top: 0;
+  position: fixed;
+}
+
+.home-page-img img{
+  margin-top: 110px;
+  width: 100%;
+  text-align: center;
+}
+
+figcaption {
+  background-color: white;
+  text-align: center;
+}
+
+.resource-img {
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.resource-content {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  border: black solid 2px;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {    
+    margin-top: 30px;
+    background-color: orange;
+    padding: 20px;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
@@ -33,10 +90,6 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
-}
-
-.image-container .btn:hover {
-    background-color: black;
 }
 
 .sidebysideimage {
@@ -81,6 +134,8 @@ header {
     justify-content: space-between;
     background-color: #BDBDBD;
     width: 100%;
+    z-index: 1;
+
 }
 
 h4 {
@@ -90,7 +145,6 @@ h4 {
 .home {
     text-align: center;
 }
-
 
 nav>ul {
     width: 35vw;
