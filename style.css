@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.image-container .btn:hover {
+    background-color: black;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -20,10 +24,7 @@ body {
 
 header {
   top: 0;
-  width: 100%;
   position: fixed;
-  text-align: center;
-  background-color: orange;
 }
 
 .home-page-img img{
@@ -90,9 +91,7 @@ footer {
     border-radius: 5px;
 }
 
-.image-container .btn:hover {
-    background-color: black;
-}
+
 
 .sidebysideimage {
     display: flex;
