@@ -135,6 +135,7 @@ header {
     justify-content: space-between;
     background-color: #BDBDBD;
     width: 100%;
+    z-index: 1;
 }
 
 h4 {
@@ -144,3 +145,24 @@ h4 {
 .home {
     text-align: center;
 }
+
+nav>ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+ .navlink {
+     display: inline-block;
+     padding: 0px 20px;
+ }
+ 
+ .navlink li ,a{
+     transition: all 0.3 ease 0s;
+ }
+ 
+ .navlink li, a:hover{
+     color:blue;
+ }
