@@ -1,4 +1,5 @@
 * {
+
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -91,8 +92,6 @@ footer {
     border-radius: 5px;
 }
 
-
-
 .sidebysideimage {
     display: flex;
 }
@@ -136,6 +135,7 @@ header {
     background-color: #BDBDBD;
     width: 100%;
     z-index: 1;
+
 }
 
 h4 {
