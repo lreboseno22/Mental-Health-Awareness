@@ -1,85 +1,93 @@
 * {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
+
 .image-container {
-  position: relative;
-  width: 50%;
+    position: relative;
+    width: 50%;
 }
 
 /* Make the image responsive */
+
 .image-container img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* Style the button and place it in the middle of the container/image */
+
 .image-container .btn {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 15px;
-  padding: 10px 30px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .image-container .btn:hover {
-  background-color: black;
+    background-color: black;
 }
+
 .sidebysideimage {
     display: flex;
 }
 
-#header {
-position: fixed;
-width: 100%;
-height: auto;
-left: 0px;
-top: 0px;
-background: #BDBDBD;
-padding-top: 20px;
+/*#header {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    background: #BDBDBD;*/
+/*    padding-top: 20px;*/
+/*        background-color: red;*/
+
+/*}*/
+
+li,
+a {
+    text-decoration: none;
+
 }
 
-li, a {
- text-decoration: none;
-    
-}
-header{
+header {
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 10px 0px;
-    
-    
+    justify-content: right;
+    background-color: red;
 }
 
 h4 {
     width: auto;
+}
 
 .home {
     text-align: center;
 }
 
 .homelink {
-font-family: Rambla;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-padding: 0px 50px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0px 50px;
 }
 
-nav > ul {
-  width: 35vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+nav>ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
