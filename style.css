@@ -1,34 +1,49 @@
-/* Container needed to position the button. Adjust the width as needed */
-.image-container {
-  position: relative;
-  width: 50%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Make the image responsive */
-.image-container img {
-  width: 100%;
-  height: auto;
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.image-container .btn {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+a {
+  text-decoration: none;
   color: white;
-  font-size: 15px;
-  padding: 10px 30px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
 }
 
-.image-container .btn:hover {
-  background-color: black;
+li {
+  list-style: none;
 }
-.sidebysideimage {
-    display: flex;
+
+.resources-header {
+  position: fixed;
+  background-color: orange;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+.resource-header-img {
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.resource-content {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  border: black solid 2px;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {    
+    margin-top: 30px;
+    background-color: orange;
+    padding: 20px;
 }
