@@ -55,6 +55,35 @@ figcaption {
   margin: 10px;
 }
 
+.resoure-content div {
+  padding: 0;
+  margin: 0;
+  width: 55%;
+}
+
+.resource-content div > img {
+  width: 150px;
+}
+.about-img {
+  max-width: 560px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.images-container {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.images-container img {
+  border-radius: 100%;
+  width: 50vw;
+}
+
 footer {    
     margin-top: 30px;
     background-color: orange;
