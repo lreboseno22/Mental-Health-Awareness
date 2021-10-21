@@ -191,4 +191,13 @@ nav>ul {
     
  }
  
- article > h2
+article > h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+article > h3 {
+    font-size: 20px;
+    text-align:center;
+    padding: 10px;
+}
