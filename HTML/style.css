@@ -21,6 +21,7 @@ li {
 body {
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 180px
 }
 
 header {
@@ -55,35 +56,6 @@ figcaption {
   margin: 10px;
 }
 
-.resoure-content div {
-  padding: 0;
-  margin: 0;
-  width: 55%;
-}
-
-.resource-content div > img {
-  width: 150px;
-}
-.about-img {
-  max-width: 560px;
-  width: 100%;
-  text-align: center;
-  margin-top: 20%;
-}
-
-.images-container {
-  width: 100%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.images-container img {
-  border-radius: 100%;
-  width: 50vw;
-}
-
 footer {    
     margin-top: 30px;
     background-color: orange;
@@ -94,8 +66,10 @@ footer {
 
 .image-container {
     position: relative;
-    width: 50%;
+    width: 100%;
+    padding: 20%;
 }
+
 
 /* Make the image responsive */
 
@@ -103,6 +77,8 @@ footer {
     width: 100%;
     height: auto;
 }
+
+
 
 /* Style the button and place it in the middle of the container/image */
 
@@ -123,7 +99,10 @@ footer {
 
 .sidebysideimage {
     display: flex;
+    flex-direction:column;
+    align-items:center;
 }
+
 
 #homelink {
     font-size: 20px;
@@ -195,5 +174,30 @@ nav>ul {
  .navlink li, a:hover{
      color:blue;
  }
+ .container {
+     margin-top: 300px;
+ }
+  iframe {
+       display:block;
+       align-items:center;
+ }
+ h2 {
+     text-align:center;
+ }
  
+ article {
+    background-color: #BDBDBD;
+    margin: 0 5%;
+    
+ }
  
+article > h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+article > h3 {
+    font-size: 20px;
+    text-align:center;
+    padding: 10px;
+}
