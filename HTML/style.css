@@ -57,9 +57,10 @@ figcaption {
 }
 
 footer {    
-    margin-top: 30px;
-    background-color: orange;
-    padding: 20px;
+    margin-top: 25px;
+    background-color: #BDBDBD;
+    padding: 5px;
+    width: 100%;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
@@ -215,12 +216,13 @@ article > h3 {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
   margin: auto;
 }
 
 .images-container img {
-  width: 150px;
-  height: 120px;
+  width: 180px;
+  height: 160px;
 }
   
 p {
