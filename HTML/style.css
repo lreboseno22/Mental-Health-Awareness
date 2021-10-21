@@ -201,3 +201,28 @@ article > h3 {
     text-align:center;
     padding: 10px;
 }
+
+.article-container {
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin: auto;
+}
+
+.images-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.images-container img {
+  width: 150px;
+  height: 120px;
+}
+  
+p {
+  line-height: 30px;
+}
