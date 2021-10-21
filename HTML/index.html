@@ -8,32 +8,32 @@
 </head>
 
 <body style="background-color:#F6FFF8">
-    <div id="pagewrapper">
+    <div class="card-group">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #EAF4F4">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Mental Health Awareness</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Mental Health Awareness</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Resources</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Resources</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
         For their betterment.
       </span>
-    </div>
-  </div>
-</nav>
+                    </div>
+                </div>
+            </nav>
         </header>
         <!--<figure class="home-page-image">
             <img src="Images/MentalHealthAwarenessMonthLogo.jpg"
@@ -41,27 +41,31 @@
             height="322">
             <figcaption>Something</figcaption>
             </figure> -->
-        <div id="container">
+        <div class="container-lg">
             <section>
-                <h2>Why is mental health important?</h2>
+                <h2 class="display-6" style="text-align:center">Why is mental health important?</h2>
                 <p align="center">
-                    <iframe src="https://www.youtube.com/embed/OGZjYnZg4Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class = "embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OGZjYnZg4Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                    </div>
                 </p>
             </section>
-            <div class="sidebysideimage">
-                <div class="image-container">
-                    <img src="Images/istockphoto-1031563502-612x612.jpg" alt="Mental Health Matters">
-                    <button class="btn">Facts / Statistics</button>
-                </div>
-                <div class="image-container">
-                    <img src="Images/istockphoto-1064027420-612x612.jpg" alt="Life gets hard image">
-                    <button class="btn">Learn the signs</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="Images/istockphoto-1031563502-612x612.jpg" class="img-fluid" alt="Mental Health Matters">
+
+                    </div>
+                    <div class="col">
+                        <img src="Images/istockphoto-1064027420-612x612.jpg" class="img-fluid" alt="Life gets hard image">
+
+                    </div>
                 </div>
             </div>
-            <article>
-                <p>Mental health awareness is one of the best ways to invest in your child's mental and physical safety.</p>
-                <h3>Start your mindful parenting here.</h3>
+            <article class="container-lg">
+                <p style="text-align:center">Mental health awareness is one of the best ways to invest in your child's mental and physical safety.</p>
+                <h1 class="display-5" style="text-align:center">Start your mindful parenting here.</h3>
             </article>
             <footer class="bottom-nav">
                 <ul>
@@ -76,4 +80,5 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </html>
