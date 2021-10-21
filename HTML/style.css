@@ -66,8 +66,10 @@ footer {
 
 .image-container {
     position: relative;
-    width: 50%;
+    width: 100%;
+    padding: 20%;
 }
+
 
 /* Make the image responsive */
 
@@ -75,6 +77,8 @@ footer {
     width: 100%;
     height: auto;
 }
+
+
 
 /* Style the button and place it in the middle of the container/image */
 
@@ -95,7 +99,10 @@ footer {
 
 .sidebysideimage {
     display: flex;
+    flex-direction:column;
+    align-items:center;
 }
+
 
 #homelink {
     font-size: 20px;
@@ -178,3 +185,10 @@ nav>ul {
      text-align:center;
  }
  
+ article {
+    background-color: #BDBDBD;
+    margin: 0 5%;
+    
+ }
+ 
+ article > h2
