@@ -1,28 +1,31 @@
- /* CSS code throught-out all pages eg. header and footer*/
-
+ /* CSS code throught-out all pages eg. header and footer and background color*/
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-p {
-  line-height: 30px;
+html body {
+  background-color: #9dacff;
+  font-family: 'Gideon Roman';
 }
 
-body {
-  background-color: #9DACFF;
+header, footer {
+  background-color: #556BE6!important;
+  font-family: 'Berkshire Swash';
+  font-size: 25px!important;
 }
 
-ul , li, a {
-  list-style: none;
-  text-decoration: none !important; 
-  color: black !important;
+.flex-container > .card {
+  background-color: #b4b7cc!important;
+}
+
+main > .about-main {
+  background-color: #b4b7cc!important;
 }
 
 footer {
     margin-top: 25px;
-    background-color: #BDBDBD;
     padding: 5px;
     width: 100%;
 }
@@ -36,13 +39,30 @@ footer > ul > li {
     padding: 0 10px;
 }
 
-
- /* CSS code for Responsive and About Page*/
- 
-iframe {
-  max-width: 560px; 
-  width:100%;
+h2 {
+  font-size: 40px!important;
+  font-weight: bolder!important;
 }
+
+p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 2%;
+}
+
+ul , li, a {
+  list-style: none;
+  text-decoration: none !important; 
+  color: black !important;
+}
+
+a:hover {
+  color: white!important;
+}
+
+
+/* CSS Code for Resource and About Page*/
 
 .about-main {
   margin-top: 5%;
@@ -57,11 +77,6 @@ iframe {
   .about-main {
     width: 100%;
   }
-}
-
-.about-main p {
-  font-size: 20px;
-  line-height: 40px;
 }
 
 .flex-container {
@@ -82,17 +97,21 @@ iframe {
   margin-top: 5%;
 }
 
+.align {
+  align-items: center;
+}
+
 .images-container {
   text-align: center;
   margin: 5% 5%;
 }
 
 .images-container img {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
-@media (max-width: 570px) {
-  .images-container  img{
+@media (max-width: 800px) {
+  .images-container img{
     display: none;
   }
 }
