@@ -134,3 +134,7 @@ a:hover {
 .listfontsize {
   font-size: medium!important; 
 }
+
+.text-center {
+  margin-top: 5%;
+}
