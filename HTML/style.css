@@ -132,9 +132,13 @@ a:hover {
 }
 
 .listfontsize {
-  font-size: medium!important; 
+  font-size: medium!important 
 }
 
 .text-center {
   margin-top: 5%;
+}
+ 
+.boldlist {
+  font-weight: bold;
 }
